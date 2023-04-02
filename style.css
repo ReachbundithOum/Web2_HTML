@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: white;
+}
+/*navbar start*/
+nav{
+    flex: 1;
+    text-align: right;
+    padding: 10px;
+}
+.search input{
+    float: left;
+    width: 300px;
+    height: 30px;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a:link , a:visited{
+    text-decoration: none;
+    color: black;
+    transition: transform 0.5s;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+/*navbar End*/
+/*Content Start*/
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid lightsalmon;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+    padding: 20px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 100px 0;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.col-2 a{
+    text-decoration: none;
+}
+.btn{
+    display: inline-block;
+    background-color: lightblue;
+    color: #fff;
+    padding: 10px 25px;
+    margin: 10px 0;
+    border-radius: 10px;
+    transition: background 0.5s;
+    text-decoration: none;
+}
+.btn:hover{
+    background: blue;
+}
+.image-side{
+    padding: 20px;
+}
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    align-items: center;
+    justify-content: center;
+}
+.column{
+    -ms-flex: 25%; 
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+.column img {
+    margin-top: 8px;
+    vertical-align:baseline;
+    width: 100%;
+    padding: 10px;
+}
+.row3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}  
+.row3 .col-3{
+    text-align: center;
+    padding: 0px 25px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+.row3 .col-3 img{
+    margin-top: 20px;
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+.row3 .col-3 img:hover{
+    transform: translateY(-20px);
+}
+.describe{
+    font-weight: bold;
+}
+.describe h1{
+    padding:10px 20px;
+}
+.describe p{
+    padding: 10px 20px;
+}
+
+.row4{
+    display:flex;
+    flex-direction:row;
+    margin-right: 20px;
+}
+.col-4{
+    padding: 20px;
+    display: flexbox;
+    border: 1px solid lightsalmon;
+    align-items: center;
+    justify-content: center;
+
+}
+.row4 .col-4 h2{
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.row5{
+    display:flex;
+    flex-direction:column;
+    margin-left: 20px;
+}
+footer{
+    background-color: #222;
+    margin-top: 100px;
+}
+footer p{
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/*Content End*/
